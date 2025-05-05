@@ -6,11 +6,11 @@
 
 | Funcionalidade           | Cenário de Teste                                | Passos                                                                                                                                      | Resultado Esperado                                                                 |
 |--------------------------|--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| Cadastro de restaurante  | Cadastro com dados válidos                      | 1. Acessar o painel de administração<br>2. Selecionar "Cadastro de restaurantes"<br>3. Preencher todos os campos obrigatórios<br>4. Clicar em "Salvar" | Restaurante cadastrado com sucesso. Usuário redirecionado para a lista.           |
+| Cadastro de restaurante  | Cadastro com dados válidos                      | 1. Acessar o painel de administração<br>2. Selecionar "Cadastro de restaurantes"<br>3. Preencher todos os campos obrigatórios<br>4. Clicar em "Salvar" | Mensagem:Restaurante cadastrado com sucesso. Usuário é redirecionado para a lista de restaurantes.           |
 | Cadastro de restaurante  | CNPJ inválido                                   | Preencher o campo CNPJ com um valor inválido (ex: "123456789") e clicar em "Salvar"                                                        | Mensagem de erro: "CNPJ inválido". Cadastro não é concluído.                      |
 | Cadastro de restaurante  | CNPJ duplicado                                  | Cadastrar um restaurante com um CNPJ já existente no sistema                                                                                | Mensagem de erro: "CNPJ já cadastrado". Cadastro não é concluído.                 |
 | Cadastro de restaurante  | Campo obrigatório ausente                       | Omitir o preenchimento de campos obrigatórios como nome, telefone ou endereço                                                              | Mensagem de erro informando os campos obrigatórios não preenchidos.              |
-| Cadastro de restaurante  | Confirmação e redirecionamento pós-cadastro     | Após cadastrar corretamente, observar comportamento do sistema                                                                             | Mensagem de sucesso exibida e redirecionamento automático para lista de restaurantes. |
+
 
 ---
 
@@ -23,12 +23,7 @@
 | Cadastro de cardápio   | Nome de item ausente                            | Adicionar um item ao cardápio sem preencher o nome                                                                                                 | Mensagem de erro: "Nome do item é obrigatório".                                   |
 | Cadastro de cardápio   | Preço inválido                                  | Inserir um valor não numérico ou negativo no campo preço                                                                                           | Mensagem de erro: "Preço inválido".                                               |
 | Cadastro de cardápio   | Nome duplicado de cardápio no mesmo restaurante | Tentar cadastrar dois cardápios com o mesmo nome para o mesmo restaurante                                                                         | Mensagem de erro: "Já existe um cardápio com esse nome para este restaurante".    |
-| Cadastro de cardápio   | Confirmação e redirecionamento pós-cadastro     | Após cadastrar corretamente, observar comportamento do sistema                                                                                    | Mensagem de sucesso exibida e redirecionamento automático para lista de cardápios. |
+
 
 ---
 
-## ✅ Observações
-
-- CNPJs válidos e inválidos podem ser gerados em sites simuladores para testes.
-- Verifique se as mensagens de erro estão claras e específicas.
-- Testes podem ser feitos manualmente em ambiente de desenvolvimento/homologação.
