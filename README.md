@@ -1,12 +1,41 @@
-# Plano de Testes - Sistema de Delivery de Comida
+# ✅ Desafios - Vaga de QA
 
-Este repositório contém um plano de testes manuais para as funcionalidades de **Cadastro de Restaurantes** e **Cadastro de Cardápios** do sistema de delivery de comida.
+Este repositório foi criado como parte do processo seletivo para a vaga de **Quality Assurance (QA)**. Aqui você encontrará dois desafios práticos que demonstram minha capacidade de análise, escrita de planos de testes manuais e reporte de bugs com clareza e objetividade.
 
-## Funcionalidades testadas
+## 📌 Desafio 1: Plano de Testes - Sistema de Delivery de Comida
 
-- Cadastro de novos restaurantes
-- Cadastro de cardápios
+Contém um plano de testes manuais para as funcionalidades:
 
-Todos os testes foram elaborados para validar regras de negócio, campos obrigatórios e mensagens de feedback para o usuário.
+- **Cadastro de novos restaurantes**
+- **Cadastro de cardápios**
 
-👉 Veja o plano completo no arquivo [`test-plan.md`](./test-plan.md).
+Todos os testes validam regras de negócio, campos obrigatórios e mensagens de feedback para o usuário, organizados em um formato simples e fácil de executar.
+
+🔗 Arquivo: [`test-plan.md`](./test-plan.md)
+
+---
+
+## 🐞 Desafio 2: Relatório de Bug - Cadastro de Entregadores
+
+Neste desafio foi identificado um bug crítico no sistema: o cadastro de entregadores **permite CPF inválido**, violando as regras de negócio.
+
+O arquivo simula a criação de um card no JIRA com:
+
+- Descrição clara do bug  
+- Passos para reprodução  
+- Priorização e impactos no sistema  
+- Ações de comunicação e acompanhamento com a equipe  
+
+🔗 Arquivo: [`bug-report.md`](./bug-report.md)
+
+---
+
+## 👨‍💻 Autor
+
+**Gabriel Veloso de Souza**  
+Engenheiro Civil migrando para a área de tecnologia, com foco em **Qualidade de Software** e **Desenvolvimento Back-end com Python**.
+
+---
+
+📫 **Contato**: [holanda.gvs@gmail.com]
+
