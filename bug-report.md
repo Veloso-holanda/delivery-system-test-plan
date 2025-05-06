@@ -31,20 +31,18 @@ Ao cadastrar um novo entregador, o sistema **aceita qualquer sequência de núme
 
 # 📣 Ações após criação do card no JIRA
 
-## 1. Notificar o desenvolvedor responsável (Back-end)
-Como a validação do CPF é uma responsabilidade de back-end:
+## 1. Notificar o desenvolvedor responsável (Bruno - Back-end)
+As validações de informações no formulario é responsabilidade do desenvolvedor back-end:
 
 - Entrar em contato direto com **Bruno**, o desenvolvedor back-end.
 - Compartilhar o link do card no JIRA com ele e explicar verbalmente o problema e a gravidade.
 
-> Exemplo de mensagem:  
 > “Oi Bruno, tudo bem? Encontrei um bug importante no cadastro de entregadores: o sistema está aceitando CPFs inválidos. Criei o card no JIRA com todos os detalhes e evidências. Pode dar uma olhada o quanto antes? Qualquer coisa estou aqui para ajudar nos testes depois da correção!”
 
 ## 2. Comunicar a gerente de projeto (Carol)
 - Informar a **Carol** sobre o bug e seus impactos na confiabilidade e possíveis riscos legais.
 - Enviar o link do card e explicar por que isso deve ser tratado como prioridade.
-
-> Exemplo de mensagem:  
+ 
 > “Oi Carol, passando pra te avisar de um bug crítico que encontrei no cadastro de entregadores. O sistema está aceitando qualquer CPF, mesmo inválido, o que pode gerar problemas sérios com notas fiscais e credibilidade. Criei o card no JIRA com todos os detalhes. Recomendo que reavaliemos as prioridades do sprint.”
 
 ## 3. Acompanhar a correção
